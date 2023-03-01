@@ -1,11 +1,15 @@
 name: learn-github-actions
 run-name: ${{ github.actor }} is learning GitHub Actions
 on: [push]
+env:
+  BBDD: postgree
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
     steps:
+      - name: prueba
       - run: echo ${{env.BBDD}}
         env:
-         BBDD: prinv
-        
+         BBDD: mysql
+      - name: prueba2
+      - run: echo ${{env.BBDD}}
