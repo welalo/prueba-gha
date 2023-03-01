@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: variables de entorno
-        run: echo $NAME
+        run: echo ${{vars.NAME}}
