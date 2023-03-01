@@ -8,8 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: prueba
-      - run: echo ${{env.BBDD}}
+        run: echo ${{env.BBDD}}
         env:
          BBDD: mysql
       - name: prueba2
-      - run: echo ${{env.BBDD}}
+        run: echo ${{env.BBDD}}
