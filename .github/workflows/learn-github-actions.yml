@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: variables de entorno
-        run: env
+        run: echo $NAME
